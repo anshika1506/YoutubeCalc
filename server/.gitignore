@@ -43,6 +43,9 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+.env
+package.json
+
 
 # -------------------------
 # Testing
