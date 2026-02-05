@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:5000/api/playlist',
+    baseURL: 'https://youtubecalc-1.onrender.com/',
 });
 
 export const calculatePlaylist = (playlistUrl) => API.post('/calculate', { playlistUrl });
